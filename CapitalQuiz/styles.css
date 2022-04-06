@@ -1,0 +1,110 @@
+/*dynamic*/
+.good{
+    display:flex;
+    background-color: yellowgreen;
+    color: black;
+    font-family:tahoma;
+    padding:20px;
+    width:150px;
+    height:50px;
+    align-items:center;
+    justify-content: center;
+    border:2px solid black;
+}
+.bad{
+    display:flex;
+    background-color: crimson;
+    color: black;
+    font-family:tahoma;
+    padding:20px;
+    width:150px;
+    height:50px;
+    align-items:center;
+    justify-content: center;
+    border:2px solid black;
+}
+
+
+/*general*/
+h4{
+    color:crimson;
+    font-family:Tahoma;
+    font-size:26px;
+}
+
+p{
+    color:crimson;
+    font-family:Tahoma;
+    font-size:20px;
+    font-style:italic;
+}
+
+
+/*Buttons, images and links*/
+
+.newPartie{
+    text-align:center;
+    color:crimson;
+}
+
+.canada-img{
+    width:750px;
+}
+
+.province-img{
+    height:250px;
+    width:300px;
+}
+
+
+.answer-btn{
+    display:flex;
+    background-color: white;
+    color: crimson;
+    font-family:tahoma;
+    padding:20px;
+    width:150px;
+    height:50px;
+    align-items:center;
+    justify-content: center;
+    border:2px solid crimson;
+    cursor:pointer;
+}
+
+.welcome-btn{
+    display:flex;
+    background-color: crimson;
+    color:white;
+    font-family:tahoma;
+    padding:20px;
+    width:170px;
+    height:50px;
+    align-items:center;
+    justify-content: center;
+    border:2px solid crimson;
+}
+
+.welcome-btn a{
+    background-color: crimson;
+    color:white;
+    font-family:tahoma;
+    text-decoration:none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.province-image-container{
+    margin-bottom:5%;
+}
+
+.btn-container{
+	justify-content: space-around;
+}
+

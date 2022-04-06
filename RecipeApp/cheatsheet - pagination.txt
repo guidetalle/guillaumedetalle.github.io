@@ -1,0 +1,38 @@
+
+PAGINATION
+
+Créer un index let = 0;
+cet index va varier selon le bouton sur lequel on clicke.
+
+Créer 4 fonctions séparées :
+- fetch, paginate, display data, display buttons 
++ évenement sur les boutons.
+
+
+- fetcher la data
+AWAIT
+
+- paginer la data
+   - création d'une fonction qui pagine la data fetchée. 
+   - cette fonction va créer un array d'arrays. Chacun de ces sous-arrays contiendra un nombre d'éléments
+     prédéfinis. On utilise array from pour le nombre d'éléments, et ensuite slice à l'intérieur de
+     cet array from pour définir le contenu de chaque sous array. 
+     Le nombre d'éléments est défini par Math.Ceil(longueur de l'array de données/nombre de pages prédéfini)
+
+- displayer la data paginée, avec l'index 
+Au début l'index sera de 0 donc si le nombre d'éléments par page défini est de 10
+on displayera les 10 premiers éléments.  
+
+- displayer les boutons de PAGINATION
+On mappe l'array de données paginées, et on crée un bouton par index. Ne pas oublier de rajouter +1 pour
+l'affichage puisque les arrays sont en base 0. Stocker l'index dans un attribut "data-index" dans les 
+boutons créés. On s'en reserivira pour les listeners car cela sera accessible via e.target.dataset.index
+
+- évenements sur les boutons 
+  - on fait varier la valeur de l'index, d'où le let, selon le bouton cliqué.
+  - on rappelle la fonction display de la data avec ce nouvel index, et la fonction display bouttons
+
+
+
+
+
